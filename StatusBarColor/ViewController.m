@@ -2,11 +2,6 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-  [super viewDidLoad];
-}
-
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
   // Return either UIStatusBarStyleDefault or UIStatusBarStyleLightContent here
