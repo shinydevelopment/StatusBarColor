@@ -5,7 +5,12 @@
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
   // Return either UIStatusBarStyleDefault or UIStatusBarStyleLightContent here
-  return UIStatusBarStyleDefault;
+  return UIStatusBarStyleLightContent;
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+  return NO;
 }
 
 @end
